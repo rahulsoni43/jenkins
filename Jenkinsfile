@@ -5,7 +5,7 @@ pipeline {
             steps {
                 sh 'echo "Cloning ...!" '
                 sh 'rm -rf *; rm -rf .git*; rm -rf .terraform'
-                sh 'git clone https://github.com/sandeeplamb/Jenkins-Pipeline.git .'
+                sh 'git clone https://github.com/rahulsoni43/jenkins.git .'
             }
         }
         stage ('Terraform-Validate') {
